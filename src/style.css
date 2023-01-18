@@ -121,12 +121,13 @@ header h1 {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
+    text-align: center;
   }
   
   footer p {
     font-weight: 400;
     font-size: 16px;
-   
+   text-align: center;
     line-height: 24px;
   }
   
@@ -142,6 +143,7 @@ header h1 {
   
   footer a {
     color: white;
+    
    
   }
   section {
