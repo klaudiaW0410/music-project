@@ -1,11 +1,15 @@
 body{
     font-family: 'PT Sans', sans-serif;
-    background: #291B1D;
+    background: #1d0b0e;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
+.img-responsive {
+    width: 100%;
+    display: block;
+  }
 header{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -98,6 +102,30 @@ header h1 {
     margin: 0 auto;
     padding: 100px;
   }
+
+main {
+    background-color:#2a0c09;
+    color: white;
+  }
+  
+  main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: 5px;
+    
+    opacity: 0.3;
+    text-transform: uppercase;
+  }
+  
+  main h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    
+    margin: 0;
+  }
   .link{
     color: white;
   }
@@ -111,6 +139,14 @@ header h1 {
   
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
+  }
+  .img-responsive {
+    width: 100%;
+    display: block;
+  }
+  
+  .grid-2-columns {
+    grid-template-columns: 1fr 1fr;
   }
   @media (max-width: 900px){
     header {
